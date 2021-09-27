@@ -1,4 +1,4 @@
 spring:
   datasource:
-    url: ${DB_HOST:jdbc:postgresql://localhost:5432/obo?currentSchema=some}
+    url: ${DB_HOST:jdbc:postgresql://localhost:5433/obo?currentSchema=some}
    
