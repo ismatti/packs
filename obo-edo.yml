@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: ${DB_HOST:jdbc:postgresql://localhost:5432/obo?currentSchema=some}
+    username: ${DB_USER:obo_edo}
+    password: ${DB_PASSWORD:obo_edo}
+    driverClassName: org.postgresql.Driver
